@@ -1,0 +1,331 @@
+[
+  {
+    "agent": "Strategic Planner",
+    "task_description": "Develop a comprehensive marketing plan detailing strategies and tactics for achieving business objectives.",
+    "excpected_output": "A detailed marketing plan document that outlines strategies, tactics, and expected outcomes.",
+    "doc_title": "Marketing Plan Document",
+    "task_variable_name": "develop_marketing_plan"
+  },
+  {
+    "agent": "Strategic Planner",
+    "task_description": "Set and monitor key performance indicators to track the success of marketing strategies and identify improvement areas.",
+    "excpected_output": "A report on key performance indicators with analysis of current performance against targets.",
+    "doc_title": "KPI Performance Report",
+    "task_variable_name": "monitor_kpis"
+  },
+  {
+    "agent": "Strategic Planner",
+    "task_description": "Identify and analyze target markets to tailor marketing strategies effectively.",
+    "excpected_output": "A market analysis report detailing demographic, psychographic, and behavioral characteristics of target markets.",
+    "doc_title": "Market Analysis Report",
+    "task_variable_name": "analyze_target_markets"
+  },
+  {
+    "agent": "Market Research Analyst",
+    "task_description": "Conduct competitor analysis to benchmark performance and inform strategic decisions.",
+    "excpected_output": "A competitor analysis report highlighting strengths, weaknesses, opportunities, and threats.",
+    "doc_title": "Competitor Analysis Report",
+    "task_variable_name": "conduct_competitor_analysis"
+  },
+  {
+    "agent": "Market Research Analyst",
+    "task_description": "Segment customers based on demographics and behaviors to target marketing efforts more effectively.",
+    "excpected_output": "A customer segmentation report that categorizes customers based on various criteria for targeted marketing.",
+    "doc_title": "Customer Segmentation Report",
+    "task_variable_name": "segment_customers"
+  },
+  {
+    "agent": "Market Research Analyst",
+    "task_description": "Perform industry research to keep abreast of emerging trends and technologies.",
+    "excpected_output": "An industry research report summarizing key trends, technologies, and regulatory changes affecting the market.",
+    "doc_title": "Industry Research Report",
+    "task_variable_name": "perform_industry_research"
+  },
+  {
+    "agent": "Creative Director",
+    "task_description": "Develop and maintain a cohesive creative vision across all marketing campaigns.",
+    "excpected_output": "A creative vision document that aligns with the brand\u2019s mission and outlines the thematic direction for marketing campaigns.",
+    "doc_title": "Creative Vision Document",
+    "task_variable_name": "maintain_creative_vision"
+  },
+  {
+    "agent": "Creative Director",
+    "task_description": "Ensure that all creative assets, from visual designs to copy, align with the overarching brand image and marketing goals.",
+    "excpected_output": "A review document with feedback and adjustments for creative assets to ensure consistency with the brand\u2019s image.",
+    "doc_title": "Creative Asset Review Document",
+    "task_variable_name": "align_creative_assets"
+  },
+  {
+    "agent": "Creative Director",
+    "task_description": "Guide and inspire the creative team to produce innovative and effective designs and concepts.",
+    "excpected_output": "A series of creative briefs and feedback sessions resulting in refined creative outputs.",
+    "doc_title": "Creative Briefs and Feedback Sessions Documentation",
+    "task_variable_name": "inspire_creative_team"
+  },
+  {
+    "agent": "Content Creation Agent",
+    "task_description": "Produce engaging blogs for various customer journey stages.",
+    "excpected_output": "Blogs tailored to different stages of the customer journey.",
+    "doc_title": "Blog Content Series",
+    "task_variable_name": "produce_engaging_blogs"
+  },
+  {
+    "agent": "Content Creation Agent",
+    "task_description": "Create in-depth white papers on specific topics.",
+    "excpected_output": "White papers that offer detailed insights and promote thought leadership.",
+    "doc_title": "White Paper Document",
+    "task_variable_name": "create_white_papers"
+  },
+  {
+    "agent": "Content Creation Agent",
+    "task_description": "Develop case studies showcasing successful use cases.",
+    "excpected_output": "Case studies that highlight success stories and practical applications.",
+    "doc_title": "Case Study Portfolio",
+    "task_variable_name": "develop_case_studies"
+  },
+  {
+    "agent": "Content Creation Agent",
+    "task_description": "Produce informative and engaging videos.",
+    "excpected_output": "Videos that effectively communicate messages and engage viewers.",
+    "doc_title": "Video Content Series",
+    "task_variable_name": "produce_engaging_videos"
+  },
+  {
+    "agent": "Content Creation Agent",
+    "task_description": "Design infographics to simplify complex data.",
+    "excpected_output": "Infographics that visually represent data for easy understanding.",
+    "doc_title": "Infographic Designs",
+    "task_variable_name": "design_infographics"
+  },
+  {
+    "agent": "Copywriting Agent",
+    "task_description": "Write persuasive copy for digital ads.",
+    "excpected_output": "Copy that captures attention and drives conversions.",
+    "doc_title": "Digital Advertising Copy",
+    "task_variable_name": "write_digital_ad_copy"
+  },
+  {
+    "agent": "Copywriting Agent",
+    "task_description": "Craft compelling email content.",
+    "excpected_output": "Emails that engage users and improve click-through rates.",
+    "doc_title": "Email Marketing Campaign",
+    "task_variable_name": "craft_email_content"
+  },
+  {
+    "agent": "Copywriting Agent",
+    "task_description": "Develop content for landing pages.",
+    "excpected_output": "Landing pages that are engaging and optimized for conversions.",
+    "doc_title": "Landing Page Content",
+    "task_variable_name": "develop_landing_page_content"
+  },
+  {
+    "agent": "Copywriting Agent",
+    "task_description": "Create engaging social media posts.",
+    "excpected_output": "Social media content that resonates and encourages interaction.",
+    "doc_title": "Social Media Posts",
+    "task_variable_name": "create_social_media_posts"
+  },
+  {
+    "agent": "Copywriting Agent",
+    "task_description": "Optimize calls-to-action across platforms.",
+    "excpected_output": "Optimized CTAs that improve conversion rates.",
+    "doc_title": "CTA Optimization Report",
+    "task_variable_name": "optimize_ctas"
+  },
+  {
+    "agent": "SEO Specialist Agent",
+    "task_description": "Conduct keyword research for SEO optimization.",
+    "excpected_output": "A keyword strategy that targets relevant search terms.",
+    "doc_title": "SEO Keyword Research Document",
+    "task_variable_name": "conduct_seo_keyword_research"
+  },
+  {
+    "agent": "SEO Specialist Agent",
+    "task_description": "Implement on-page SEO optimizations.",
+    "excpected_output": "Improved page rankings and user experience on the website.",
+    "doc_title": "On-Page SEO Report",
+    "task_variable_name": "implement_onpage_seo"
+  },
+  {
+    "agent": "SEO Specialist Agent",
+    "task_description": "Develop strategies for building quality backlinks.",
+    "excpected_output": "Enhanced domain authority and improved search rankings.",
+    "doc_title": "Link-Building Strategy Document",
+    "task_variable_name": "develop_backlink_strategies"
+  },
+  {
+    "agent": "SEO Specialist Agent",
+    "task_description": "Monitor website traffic and user engagement.",
+    "excpected_output": "Insights into user behavior and traffic trends.",
+    "doc_title": "Website Traffic Analysis Report",
+    "task_variable_name": "monitor_website_traffic"
+  },
+  {
+    "agent": "SEO Specialist Agent",
+    "task_description": "Update SEO strategies based on search engine updates.",
+    "excpected_output": "SEO strategies that are current and effective against new algorithms.",
+    "doc_title": "SEO Update Report",
+    "task_variable_name": "update_seo_strategies"
+  },
+  {
+    "agent": "PPC Campaign Manager Agent",
+    "task_description": "Manage budgets for PPC campaigns.",
+    "excpected_output": "Well-managed budget allocation for PPC campaigns.",
+    "doc_title": "PPC Budget Management Report",
+    "task_variable_name": "manage_ppc_budgets"
+  },
+  {
+    "agent": "PPC Campaign Manager Agent",
+    "task_description": "Select and optimize keywords for campaigns.",
+    "excpected_output": "Optimized keyword strategy for PPC.",
+    "doc_title": "PPC Keyword Strategy Report",
+    "task_variable_name": "optimize_campaign_keywords"
+  },
+  {
+    "agent": "PPC Campaign Manager Agent",
+    "task_description": "Structure PPC campaigns effectively.",
+    "excpected_output": "Structured campaign setups for optimal performance.",
+    "doc_title": "PPC Campaign Structure Report",
+    "task_variable_name": "structure_ppc_campaigns"
+  },
+  {
+    "agent": "PPC Campaign Manager Agent",
+    "task_description": "Optimize bids for ad placements.",
+    "excpected_output": "Cost-effective bid strategies for ad placements.",
+    "doc_title": "PPC Bid Optimization Report",
+    "task_variable_name": "optimize_ad_bids"
+  },
+  {
+    "agent": "Social Media Manager Agent",
+    "task_description": "Create and curate engaging content for social platforms.",
+    "excpected_output": "Creative content that boosts engagement on social media.",
+    "doc_title": "Social Media Content Calendar",
+    "task_variable_name": "curate_social_content"
+  },
+  {
+    "agent": "Social Media Manager Agent",
+    "task_description": "Interact with followers to build community and brand loyalty.",
+    "excpected_output": "Enhanced brand loyalty and community engagement.",
+    "doc_title": "Social Media Engagement Report",
+    "task_variable_name": "interact_with_followers"
+  },
+  {
+    "agent": "Social Media Manager Agent",
+    "task_description": "Use social analytics to refine engagement strategies.",
+    "excpected_output": "Data-driven social media strategies.",
+    "doc_title": "Social Media Analytics Report",
+    "task_variable_name": "use_social_analytics"
+  },
+  {
+    "agent": "Email Marketing Specialist Agent",
+    "task_description": "Segment email lists for targeted campaigns.",
+    "excpected_output": "Targeted email campaigns for specific customer groups.",
+    "doc_title": "Email List Segmentation Report",
+    "task_variable_name": "segment_email_lists"
+  },
+  {
+    "agent": "Email Marketing Specialist Agent",
+    "task_description": "Design and update email templates.",
+    "excpected_output": "Visually appealing and effective email templates.",
+    "doc_title": "Email Template Designs",
+    "task_variable_name": "update_email_templates"
+  },
+  {
+    "agent": "Email Marketing Specialist Agent",
+    "task_description": "Test email campaigns for effectiveness.",
+    "excpected_output": "Optimized email campaigns with high engagement rates.",
+    "doc_title": "Email Campaign Testing Report",
+    "task_variable_name": "test_email_campaigns"
+  },
+  {
+    "agent": "Email Marketing Specialist Agent",
+    "task_description": "Manage the email database.",
+    "excpected_output": "Well-maintained and effective email database.",
+    "doc_title": "Email Database Management Report",
+    "task_variable_name": "manage_email_database"
+  },
+  {
+    "agent": "Analytics and Insights Agent",
+    "task_description": "Monitor performance metrics across campaigns.",
+    "excpected_output": "Comprehensive performance reports.",
+    "doc_title": "Campaign Performance Report",
+    "task_variable_name": "monitor_campaign_performance"
+  },
+  {
+    "agent": "Analytics and Insights Agent",
+    "task_description": "Provide actionable insights based on data.",
+    "excpected_output": "Actionable strategies to improve marketing efforts.",
+    "doc_title": "Marketing Insights Report",
+    "task_variable_name": "provide_actionable_insights"
+  },
+  {
+    "agent": "Analytics and Insights Agent",
+    "task_description": "Suggest optimizations for ongoing and future strategies.",
+    "excpected_output": "Optimized strategies for improved campaign performance.",
+    "doc_title": "Strategy Optimization Report",
+    "task_variable_name": "suggest_strategic_optimizations"
+  },
+  {
+    "agent": "CRO Agent",
+    "task_description": "Optimize landing pages for conversion.",
+    "excpected_output": "High-converting landing pages.",
+    "doc_title": "Landing Page Optimization Report",
+    "task_variable_name": "optimize_landing_pages"
+  },
+  {
+    "agent": "CRO Agent",
+    "task_description": "Conduct A/B testing for marketing elements.",
+    "excpected_output": "Data on the most effective marketing elements.",
+    "doc_title": "A/B Testing Report",
+    "task_variable_name": "conduct_ab_testing"
+  },
+  {
+    "agent": "CRO Agent",
+    "task_description": "Improve funnel efficiency.",
+    "excpected_output": "Streamlined marketing funnels for better conversions.",
+    "doc_title": "Funnel Efficiency Report",
+    "task_variable_name": "improve_funnel_efficiency"
+  },
+  {
+    "agent": "Customer Relationship Manager Agent",
+    "task_description": "Implement CRM strategies.",
+    "excpected_output": "Effective CRM strategies that boost retention and loyalty.",
+    "doc_title": "CRM Strategy Report",
+    "task_variable_name": "implement_crm_strategies"
+  },
+  {
+    "agent": "Customer Relationship Manager Agent",
+    "task_description": "Manage customer communications.",
+    "excpected_output": "Efficient and responsive customer communications.",
+    "doc_title": "Customer Communications Report",
+    "task_variable_name": "manage_customer_communications"
+  },
+  {
+    "agent": "Customer Relationship Manager Agent",
+    "task_description": "Handle customer feedback.",
+    "excpected_output": "Improved customer service and satisfaction.",
+    "doc_title": "Customer Feedback Report",
+    "task_variable_name": "handle_customer_feedback"
+  },
+  {
+    "agent": "Compliance and Brand Safety Agent",
+    "task_description": "Monitor compliance of marketing materials.",
+    "excpected_output": "Compliance with legal standards in marketing materials.",
+    "doc_title": "Compliance Monitoring Report",
+    "task_variable_name": "monitor_marketing_compliance"
+  },
+  {
+    "agent": "Compliance and Brand Safety Agent",
+    "task_description": "Safeguard brand reputation.",
+    "excpected_output": "Maintained brand integrity and safety.",
+    "doc_title": "Brand Safety Report",
+    "task_variable_name": "safeguard_brand_reputation"
+  },
+  {
+    "agent": "Compliance and Brand Safety Agent",
+    "task_description": "Conduct audits of marketing content and strategies.",
+    "excpected_output": "Audited and verified marketing practices for compliance and effectiveness.",
+    "doc_title": "Marketing Compliance Audit Report",
+    "task_variable_name": "conduct_marketing_audits"
+  }
+]
