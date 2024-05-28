@@ -5,11 +5,18 @@ from crewai_tools.tools import WebsiteSearchTool, SerperDevTool, FileReadTool
 import pandas as pd 
 import json 
 import streamlit as st
-seper_dev_tool = SerperDevTool()
+from langchain_groq import ChatGroq
 
-from dotenv import load_dotenv
 
-load_dotenv()
+
+serper_dev_tool = SerperDevTool()
+
+llm = ChatGroq(model_name="mixtral-8x7b-32768", temperature=0.2) 
+
+
+os.environ['SERPER_API_KEY'] = st.secrets["SERPER_API_KEY"]
+os.environ['GROQ_API_KEY'] = st.secrets["GROQ_API_KEY"]
+
 def create_crew(OUTPUT_FOLDER):
   # Load an Excel file into a DataFrame
   #df = pd.read_excel('tasks.xlsx')
@@ -22,6 +29,9 @@ def create_crew(OUTPUT_FOLDER):
       goal=agent['Goal'],
       allow_delegation=False,
       verbose=True,
+      llm=llm,
+      memory=True,
+      tools=[serper_dev_tool]
     )
   tasks={}
   tasks_load=json.loads(open("tasks.json", "r").read())

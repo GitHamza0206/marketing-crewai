@@ -22,6 +22,7 @@ class StreamToExpander:
 
 def load_tasks():
     tasks={}
+    #load tasks from json file
     tasks_load=json.loads(open("tasks.json", "r").read())
     return tasks_load
 
@@ -88,7 +89,7 @@ def run_crewai_app():
         files = os.listdir(folder_path)
         new_folder = '➕ new folder'
         for folder in files:
-            flags =['.streamlit','__pycache__']
+            flags =['.streamlit','__pycache__', '.git']
             if os.path.isdir(folder) and folder not in flags:
                 folders.append(folder)
         
@@ -101,7 +102,7 @@ def run_crewai_app():
             if add_btn:
                 try:
                     on_click_btn(folder_name=folder_name)
-                    st.experimental_rerun()
+                    st.rerun()
                 except:
                     st.sidebar.error("Error with folder name ")
                 
